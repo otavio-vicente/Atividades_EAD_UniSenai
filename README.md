@@ -1,8 +1,3 @@
-# Curriculo
- Curriculo desenvolvido a fim de estudos, promovido pela faculdade UniSenai.
- 
- Visualização prévia:
-
 <h1>Currículo de Otávio Henrique Vicente</h1>
 
 <h2>Sobre Mim</h2>
