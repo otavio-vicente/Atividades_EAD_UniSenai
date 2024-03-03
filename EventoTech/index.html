@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inscrição para o Evento Tech 2024</h1>
+        <p>Complete o formulário abaixo para se inscrever no evento.</p>
+    </header>
+
+    <main class="formulário">
+        <form action="" method="post">
+            <section>
+                <fieldset>
+                    <legend> Informações Pessoais: </legend>
+                    <label for="nome">Nome: </label>
+                    <input type="text"><br>
+                    <label for="email">Email: 
+                    <input type="email"><br>
+                    <label for="senha">Senha: </label>
+                    <input type="password"><br>
+                    <label for="idade">Idade: </label>
+                    <input type="number"><br>
+                    <label for="dataNasc">Data de Nascimento: </label>
+                    <input type="date"><br>
+                </fieldset>             
+            </section>
+            <section>
+                <fieldset>
+                    <legend> Preferências do Evento: </legend>
+                    <label for="nome">Tema de interesse: </label>
+                    <select name="tema" id="tema">
+                        <option value="frontEnd">Front-end</option>
+                        <option value="backEnd">Back-end</option>
+                    </select><br>
+                    <label for="email">Workshops: <br>
+                    <input type="checkbox"> Desenvolvimento Web Moderno <br>
+                    <input type="checkbox"> Introdução à Inteligência Artificial <br>
+                    <input type="checkbox"> Segurança na Internet <br>
+                </fieldset>             
+            </section>
+            <section>
+                <fieldset>
+                    <legend> Submissão de Apresentação: </legend>
+                    <label for="nome">Título: </label>
+                    <input type="text"><br>
+                    <label for="email">Resumo: 
+                    <textarea cols="35" rows="8"></textarea><br>
+                    <label for="senha">Anexar Apresentação (PDF): </label>
+                    <input type="file"><br>-
+                    <input type="submit" value="Enviar" class="btnEnviar">
+                </fieldset>                             
+            </section>        
+        </form>     
+    </main>
+    <footer>
+        <p>&copy; 2024 Otávio Henrique Vicente. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
