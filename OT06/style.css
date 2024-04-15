@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* Reset básico para remover margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #ADD8E6;
+    color: #333;
+}
+
+header {
+    background: #1E90FF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.introducao {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.links-uteis {
+    list-style: none;
+}
+
+.links-uteis li {
+    margin-bottom: 10px;
+}
+
+.links-uteis a:link, .links-uteis a:visited {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.links-uteis a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4682B4;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introducao .links-uteis li a{
+  text-decoration : none;
+  color: #fff;
+  background-color: #1E90FF;
+  border-radius: 20px;
+  padding: 6px;
+}
+.introducao .links-uteis li a:hover{
+  background-color:#4682B4;
+}
+.introducao .links-uteis{
+  margin: 10px;
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card1{
+  margin:10px;
+  padding: 20px;
+  background: #1E90FF;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card2{
+  margin:10px;
+  padding: 20px;
+  background: #87CEFA;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card3{
+  margin: 10px;
+  padding: 20px;
+  background: #ADD8E6;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
