@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-container {
+    background-image: url('/0T07-EAD/imgs/fundo-login.avif'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5); /* Camada escura para melhor contraste */
+}
+
+.login-form {
+    position: relative;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 2; /* Garante que o formulário fique acima do pseudo-elemento ::before */
+    background-color: #af0f5a;
+    color: #ddd;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que padding não aumente o tamanho do input */
+    box-shadow: #472838 3px 2px;
+}
+
+.login-form button {
+    width: 50%;
+    padding: 10px;
+    background-color: #e41a78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px auto;
+    justify-content: center;
+    display: flex;
+}
+
+.login-form button:hover {
+    background-color: #e72da9;
+}
