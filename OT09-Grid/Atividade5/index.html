@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Música</title>
+    <link rel="stylesheet" href="/OT09-Grid/Atividade5/style.css">
+</head>
+<body>
+    <header>
+        <h1>App de Música</h1>
+        <nav>
+            <input type="text" placeholder="Buscar...">
+        </nav>
+    </header>
+    <main class="container">
+        <section class="artists">
+            <h2>Artistas</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="artist1.jpg" alt="Artista 1">
+                    <h3>Artista 1</h3>
+                </div>
+                <div class="card">
+                    <img src="artist2.jpg" alt="Artista 2">
+                    <h3>Artista 2</h3>
+                </div>
+                <!-- Adicione mais artistas conforme necessário -->
+            </div>
+        </section>
+        <section class="albums">
+            <h2>Álbuns</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="album1.jpg" alt="Álbum 1">
+                    <h3>Álbum 1</h3>
+                </div>
+                <div class="card">
+                    <img src="album2.jpg" alt="Álbum 2">
+                    <h3>Álbum 2</h3>
+                </div>
+                <!-- Adicione mais álbuns conforme necessário -->
+            </div>
+        </section>
+        <section class="songs">
+            <h2>Músicas</h2>
+            <ul>
+                <li>Música 1</li>
+                <li>Música 2</li>
+                <!-- Adicione mais músicas conforme necessário -->
+            </ul>
+        </section>
+        <section class="playlists">
+            <h2>Playlists</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="playlist1.jpg" alt="Playlist 1">
+                    <h3>Playlist 1</h3>
+                </div>
+                <div class="card">
+                    <img src="playlist2.jpg" alt="Playlist 2">
+                    <h3>Playlist 2</h3>
+                </div>
+                <!-- Adicione mais playlists conforme necessário -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="player">
+            <button>Play</button>
+            <button>Pause</button>
+            <button>Stop</button>
+            <input type="range" min="0" max="100" value="50">
+        </div>
+    </footer>
+</body>
+</html>

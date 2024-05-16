@@ -1,0 +1,41 @@
+/* Estilos para o filtro */
+.filters {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.filters label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filters select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para produtos */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

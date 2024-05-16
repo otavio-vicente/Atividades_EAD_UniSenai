@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="filters">
+            <h2>Filtros</h2>
+            <label for="category">Categoria:</label>
+            <select id="category">
+                <option value="all">Todas</option>
+                <option value="electronics">Eletrônicos</option>
+                <option value="clothing">Roupas</option>
+                <option value="books">Livros</option>
+            </select>
+        </section>
+        <section class="products">
+            <div class="product electronics">
+                <img src="/OT09-Grid/Atividade1/imgs/flor1.jpg" height="200px" alt="Produto 1">
+                <h3>Nome do Produto 1</h3>
+                <p class="price">$19.99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product clothing">
+                <img src="/OT09-Grid/Atividade1/imgs/bosque.jpg" height="200px" alt="Produto 2">
+                <h3>Nome do Produto 2</h3>
+                <p class="price">$24.99</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Minha Loja Virtual. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 200px; /* Altura mínima das linhas */
+    grid-gap: 10px;
+    position: relative; /* Para posicionar as fotos absolutamente dentro da galeria */
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%; /* Ocupa toda a altura da linha */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.photo1 {
+    background-image: url('/OT09-Grid/Atividade1/imgs/foto.jpg');
+    grid-column: span 2; /* Ocupa duas colunas */
+    grid-row: span 2; /* Ocupa duas linhas */
+}
+
+
+
+.photo3 {
+    background-image: url('/OT09-Grid/Atividade1/imgs/bosque.jpg');
+    grid-column: span 2;
+}
+
+.photo4 {
+    background-image: url('/OT09-Grid/Atividade1/imgs/flor1.jpg');
+    grid-row: span 2;
+}
+
+.photo5 {
+    background-image: url('/OT09-Grid/Atividade1/imgs/fundo2.jpg');
+}
+
+.photo6 {
+    background-image: url('/OT09-Grid/Atividade1/imgs/fundo1.jpg');
+}
