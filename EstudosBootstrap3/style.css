@@ -1,0 +1,16 @@
+.nav-item a{
+    color: black;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+    margin-top: 20px;
+}
+footer p {
+    margin: auto;
+}
+
+nav {
+    background-color: beige;
+}
