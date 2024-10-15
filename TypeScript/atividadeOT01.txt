@@ -1,0 +1,44 @@
+
+atividade 1- TypeScript é um superset do JavaScript que adiciona tipagem estática e outras funcionalidades modernas, facilitando o desenvolvimento de aplicações mais robustas e escaláveis. Ele é compilado para JavaScript, o que significa que todo código TypeScript é convertido em JavaScript puro, tornando-o compatível com qualquer ambiente que suporte JavaScript.
+
+Principais vantagens em relação ao JavaScript:
+Tipagem Estática: TypeScript permite definir tipos de dados para variáveis, parâmetros e retornos de funções. Isso ajuda a identificar erros em tempo de compilação, aumentando a segurança do código e facilitando a manutenção.
+
+Melhores Ferramentas de Desenvolvimento: TypeScript oferece suporte avançado a IDEs e editores, como autocompletar, navegação entre código e refatoração, o que melhora a produtividade dos desenvolvedores e reduz o tempo de debug.
+
+Essas características tornam o TypeScript uma escolha popular para projetos de grande escala e equipes de desenvolvimento, onde a colaboração e a manutenção do código são cruciais.
+
+atividade 2- No exemplo TypeScript, definimos tipos para os parâmetros e para o retorno
+da função. Isso ajuda a evitar erros como a concatenação acidental de
+números e strings, um problema comum em JavaScript.
+
+atividade 3- Instalando o TypeScript
+Com o Node.js e o NPM prontos, instalar o TypeScript é um processo simples:
+
+npm install -g typescript
+
+Este comando instala o TypeScript globalmente em seu sistema, permitindo que
+você o use em qualquer projeto.
+Configurando o compilador TypeScript
+O próximo passo é configurar o compilador TypeScript. Isso é feito através de um
+arquivo chamado tsconfig.json, que define como o TypeScript compila o código
+JS.
+1. Crie um novo projeto: Crie uma nova pasta para o seu projeto e navegue até
+ela no terminal.
+2. Inicialize um projeto Node.js: Isso cria um arquivo package.json padrão.
+
+npm init -y
+
+3. Crie um arquivo tsconfig.json:
+○ Você pode gerar um tsconfig.json padrão com o seguinte
+comando:
+
+tsc --init
+
+atividade 4- As mais importantes incluem:
+○ "target": "es6": Define a versão do ECMAScript para a saída do
+JS.
+○ "module": "commonjs": Define o sistema de módulos.
+○ "strict": true: Ativa todas as restrições de tipo para uma segurança máxima.
+
+atividade 5- tsc index.ts - compila / node index.js - roda 
