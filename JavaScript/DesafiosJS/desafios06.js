@@ -1,6 +1,6 @@
 
 // 1. Declarar a variável `championship` com o nome do campeonato
-let championship = 'Campeonato do indio';
+let championship = 'Campeonato Brasileiro';
 console.log(championship);
 
 // 2. Declarar a variável `teams` com 5 times do campeonato
